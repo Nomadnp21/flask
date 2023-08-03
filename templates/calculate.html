@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>calculate marks</title>
+    </head>
+    <body>
+        <h1>Enter Marks for Math and Science</h1>
+        <form action="{{url_for('calculate')}}" method="post">
+            <label for="mathMarks">Math Marks: </label>
+            <input type="text" id="mathMarks" name="mathMarks"><br><br>
+            
+            <label for="scienceMarks">Science Marks: </label>
+            <input type="text" id="scienceMarks" name="scienceMarks"><br><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+    </html>
+    
